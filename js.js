@@ -1,6 +1,6 @@
 function entrar() {
   alert('Se ha iniciado sesion como '+document.getElementById('username').value)
-  document.getElementById("bienvenida").innerHTML = "Bienvenido Leyenda <h3>" + document.getElementById('username').value+"</h3>"
+  document.getElementById("bienvenida").innerHTML = "Bienvenido " + document.getElementById('username').value
 }
 
 function bolAdol() {
